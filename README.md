@@ -14,19 +14,16 @@ every repo in the org that doesn't ship its own.
 |------|-----------|---------|
 | [`profile/README.md`](profile/README.md) | the org page | Public landing page shown on `github.com/ctrlgarage` |
 | [`SECURITY.md`](SECURITY.md) | every repo | Default security policy → `security@ctrlgarage.dev` |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | every repo | Contributor Covenant 2.1 |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | every repo | How to report issues and propose changes |
+| [`PULL_REQUEST_TEMPLATE.md`](PULL_REQUEST_TEMPLATE.md) | every repo | Default PR checklist |
+| [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) | every repo | Bug report + feature request forms, with security/contact links |
 
 ## How the defaults work
 
-GitHub looks here when a repo lacks its own version of a community health file.
-Drop a file in this repo's root (or `.github/`) and it becomes the org default:
-
-- `SECURITY.md` — vulnerability disclosure policy ✅
-- `CODE_OF_CONDUCT.md` — contributor conduct _(add when we open contributions)_
-- `CONTRIBUTING.md` — how to contribute _(add per-repo when needed)_
-- `ISSUE_TEMPLATE/` · `PULL_REQUEST_TEMPLATE.md` — issue/PR scaffolding _(future)_
-
-A repo that ships its own copy **overrides** the default here. So this is a floor,
-not a ceiling.
+GitHub looks here when a repo lacks its own version of a community health file, so a
+single file in this repo covers the whole org. A repo that ships its own copy
+**overrides** the default here — this is a floor, not a ceiling.
 
 ## House rules
 
