@@ -31,3 +31,12 @@
 > If your consultant can't open a terminal in front of you, you've hired a narrator.
 
 [Book a diagnostic →](https://ctrlgarage.dev/book.html)
+
+---
+
+<p align="center">
+  <sub>
+    🔒 Found a security issue? See our <a href="https://github.com/ctrlgarage/.github/blob/main/SECURITY.md">Security Policy</a> ·
+    <a href="mailto:security@ctrlgarage.dev">security@ctrlgarage.dev</a>
+  </sub>
+</p>
